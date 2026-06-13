@@ -1,0 +1,46 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuildFolder
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/profile files
+*.log
+*.hprof
+
+# Android Studio
+.navigation/
+*.iws
+
+# Per-module build outputs
+app/build/
+app/release/
+app/debug/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+gradle-wrapper.jar.sha256
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
