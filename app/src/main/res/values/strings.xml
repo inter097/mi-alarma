@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Mi Alarma</string>
+
+    <!-- Notificaciones -->
+    <string name="notification_channel_alarm_name">Alarma</string>
+    <string name="notification_channel_alarm_description">Notificaciones mostradas cuando suena una alarma</string>
+    <string name="action_snooze">Posponer</string>
+    <string name="action_dismiss">Descartar</string>
+
+    <!-- Pantalla de lista de alarmas -->
+    <string name="alarms_title">Mi Alarma</string>
+    <string name="empty_state_title">No tienes alarmas</string>
+    <string name="empty_state_subtitle">Toca el botón + para crear tu primera alarma</string>
+    <string name="cd_add_alarm">Agregar alarma</string>
+    <string name="cd_open_settings">Permisos y batería</string>
+    <string name="cd_toggle_alarm">Activar o desactivar alarma</string>
+    <string name="no_label">Sin etiqueta</string>
+    <string name="never_repeats">Solo una vez</string>
+    <string name="every_day">Todos los días</string>
+
+    <!-- Pantalla de creación/edición -->
+    <string name="new_alarm_title">Nueva alarma</string>
+    <string name="edit_alarm_title">Editar alarma</string>
+    <string name="label_field_label">Etiqueta</string>
+    <string name="label_field_placeholder">Ej. Despertar</string>
+    <string name="repeat_section_title">Repetir</string>
+    <string name="vibrate_section_title">Vibración</string>
+    <string name="sound_section_title">Tono de alarma</string>
+    <string name="select_ringtone">Seleccionar tono</string>
+    <string name="default_sound_name">Tono predeterminado del sistema</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="cd_back">Volver</string>
+    <string name="delete_alarm_confirm_title">Eliminar alarma</string>
+    <string name="delete_alarm_confirm_message">¿Seguro que quieres eliminar esta alarma? Esta acción no se puede deshacer.</string>
+
+    <!-- Días de la semana -->
+    <string name="day_monday">Lunes</string>
+    <string name="day_tuesday">Martes</string>
+    <string name="day_wednesday">Miércoles</string>
+    <string name="day_thursday">Jueves</string>
+    <string name="day_friday">Viernes</string>
+    <string name="day_saturday">Sábado</string>
+    <string name="day_sunday">Domingo</string>
+
+    <!-- Pantalla de permisos y batería -->
+    <string name="permissions_title">Permisos y batería</string>
+    <string name="permissions_intro">Para que tus alarmas suenen siempre a tiempo, incluso con la pantalla bloqueada o el modo de ahorro de energía activado, revisa estos ajustes:</string>
+
+    <string name="perm_exact_alarm_title">Alarmas y recordatorios exactos</string>
+    <string name="perm_exact_alarm_description">Permite que la app programe alarmas exactas que suenen incluso en modo de ahorro de energía (Doze).</string>
+    <string name="perm_exact_alarm_granted">Permiso concedido</string>
+    <string name="perm_exact_alarm_not_granted">Permiso no concedido</string>
+    <string name="perm_open_settings">Abrir ajustes</string>
+
+    <string name="perm_notifications_title">Notificaciones</string>
+    <string name="perm_notifications_description">Necesarias para mostrar el aviso de alarma sonando y los botones de posponer/descartar.</string>
+    <string name="perm_notifications_granted">Permiso concedido</string>
+    <string name="perm_notifications_not_granted">Permiso no concedido</string>
+    <string name="perm_request">Conceder permiso</string>
+
+    <string name="perm_full_screen_title">Mostrar sobre pantalla de bloqueo</string>
+    <string name="perm_full_screen_description">Permite que la pantalla de alarma aparezca a pantalla completa aunque el teléfono esté bloqueado.</string>
+    <string name="perm_full_screen_granted">Permiso concedido</string>
+    <string name="perm_full_screen_not_granted">Permiso no concedido</string>
+
+    <string name="battery_section_title">Optimización de batería</string>
+    <string name="battery_section_description">Android puede cerrar la app en segundo plano para ahorrar batería, lo que podría impedir que tu alarma suene. Desactiva la optimización de batería para Mi Alarma.</string>
+    <string name="battery_optimized">Optimización activada (recomendado desactivar)</string>
+    <string name="battery_not_optimized">Optimización desactivada</string>
+    <string name="battery_open_settings">Desactivar optimización de batería</string>
+
+    <string name="autostart_section_title">Inicio automático (Xiaomi / HyperOS y otros fabricantes)</string>
+    <string name="autostart_section_description">En dispositivos Xiaomi, Redmi, POCO (HyperOS/MIUI) y de otros fabricantes como Huawei, Oppo o Samsung, debes activar manualmente el \"Inicio automático\" (Autostart) de Mi Alarma para que pueda sonar tras reiniciar el teléfono o con la app cerrada.</string>
+    <string name="autostart_steps_title">Pasos sugeridos:</string>
+    <string name="autostart_step_1">1. Abre Ajustes ➝ Aplicaciones ➝ Permisos ➝ Inicio automático.</string>
+    <string name="autostart_step_2">2. Busca \"Mi Alarma\" y activa el interruptor.</string>
+    <string name="autostart_step_3">3. También revisa Ajustes ➝ Batería ➝ Uso de batería de la app y elige \"Sin restricciones\".</string>
+    <string name="autostart_open_settings">Abrir ajustes de inicio automático</string>
+    <string name="autostart_not_available">No se encontró un acceso directo para este fabricante. Busca \"Inicio automático\" en los ajustes del sistema.</string>
+</resources>
